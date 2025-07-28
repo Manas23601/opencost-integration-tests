@@ -62,3 +62,13 @@ teardown() {
 }
 
 # ------------------------------------------------------
+
+
+# ------------------------------------------------------
+# PV Costs
+
+@test "prometheus: PV " {
+    go test ./test/integration/prometheus/pv_bytehours_pv_request_costs_analysis_test.go
+}
+
+# ------------------------------------------------------
